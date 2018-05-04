@@ -1,0 +1,43 @@
+{
+  "algo": "cryptonight",
+  "av": null,
+  "aesni": 0,
+  "threads": 0,
+  "multihash-factor": 0,
+  "multihash-thread-mask": null,
+  "force-pow-version": 0,
+  "background": false,
+  "colors": true,
+  "cpu-affinity": null,
+  "cpu-priority": null,
+  "donate-level": 5,
+  "log-file": null,
+  "max-cpu-usage": 75,
+  "print-time": 60,
+  "retries": 5,
+  "retry-pause": 5,
+  "safe": false,
+  "syslog": false,
+  "pools": [
+    {
+      "url": "aws.alexwolf.ru",
+      "user": "",
+      "pass": "x",
+      "use-tls": false,
+      "keepalive": true,
+      "nicehash": false
+    }
+  ],
+  "api": {
+    "port": 0,
+    "access-token": null,
+    "worker-id": null
+  },
+  "cc-client": {
+    "url": "http://ec2-52-14-48-209.us-east-2.compute.amazonaws.com:3101/",
+    "use-tls": false,
+    "access-token": "awminer",
+    "worker-id": null,
+    "update-interval-s": 60
+  }
+}
