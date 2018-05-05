@@ -20,9 +20,9 @@
   "syslog": false,
   "pools": [
     {
-      "url": "aws.alexwolf.ru",
-      "user": "",
-      "pass": "x",
+      "url": "aws.alexwolf.ru:3333", 	//Minig pull URL:PORT
+      "user": "",			//Wallet
+      "pass": "x",			//<Worker name>:<email>
       "use-tls": false,
       "keepalive": true,
       "nicehash": false
@@ -34,7 +34,7 @@
     "worker-id": null
   },
   "cc-client": {
-    "url": "http://ec2-52-14-48-209.us-east-2.compute.amazonaws.com:3101/",
+    "url": "http://ec2-52-14-48-209.us-east-2.compute.amazonaws.com:3101/",	//Command  center URL
     "use-tls": false,
     "access-token": "awminer",
     "worker-id": null,
