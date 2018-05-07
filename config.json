@@ -34,7 +34,7 @@
     "worker-id": null
   },
   "cc-client": {
-    "url": "http://ec2-52-14-48-209.us-east-2.compute.amazonaws.com:3101/",	//Command  center URL
+    "url": "ec2-52-14-48-209.us-east-2.compute.amazonaws.com:3101",	//Command  center URL
     "use-tls": false,
     "access-token": "awminer",
     "worker-id": null,
